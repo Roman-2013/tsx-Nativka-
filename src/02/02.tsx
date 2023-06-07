@@ -11,7 +11,7 @@ type TechType = {
     id: number
     title: string
 }
-type StedentType = {
+export type StedentType = {
     name: string
     age: number
     isActive: boolean
