@@ -24,7 +24,7 @@ export const User = () => {
 
     return (<div>
             <input value={state} tabIndex={1} onChange={onNameChanged}></input>
-            <button name={'deleteBaton'} onClick={deleteUser}>delete</button>
+            <button disabled={true} name={'deleteBaton'} onClick={deleteUser}>delete</button>
             <button name={'saveButton'} onClick={saveUser}>save</button>
         </div>
     )
